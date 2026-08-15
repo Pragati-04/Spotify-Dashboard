@@ -1,20 +1,22 @@
-# 🎧 Spotify Streaming Performance Dashboard
+# 🎧 Spotify Streaming Performance Dashboard (Excel)
 
-An interactive Power BI dashboard analyzing artist streaming performance on Spotify — 
+An interactive Excel dashboard analyzing artist streaming performance on Spotify — 
 covering solo vs. collaborative streams, genre trends, and audience patterns across 
 countries and languages.
 
 ## 📊 Features
 - **KPI Cards** — Total Streams, Solo Streams, Collaborative Streams at a glance
-- **Genre Analysis** — Bar chart showing total streams by primary genre
-- **Streaming Mix** — Donut chart comparing solo vs. collaborative stream share
+- **Genre Analysis** — Bar/column chart showing total streams by primary genre
+- **Streaming Mix** — Pie/donut chart comparing solo vs. collaborative stream share
 - **Trend Analysis** — Line chart tracking streams by artist debut year
-- **Interactive Slicers** — Filter by genre and country of origin
+- **Interactive Slicers** — Filter by artist name, genre, and country of origin
 - **Custom Styling** — Dark-themed slicer design (black background, white text)
 
 ## 🛠️ Tools Used
-- Power BI Desktop
-- DAX (for measures/calculations)
+- Microsoft Excel
+- Pivot Tables & Pivot Charts
+- Slicers
+- Excel Formulas (SUM, AVERAGE, etc. for KPI calculations)
 
 ## 📁 Dataset
 Includes fields such as Artist Name, Artist Type, Gender, Primary Genre, 
@@ -25,9 +27,9 @@ Streams, and derived % metrics.
 *(Add a screenshot of your dashboard here)*
 
 ## 🚀 How to Use
-1. Clone this repo
-2. Open the `.pbix` file in Power BI Desktop
-3. Explore the dashboard using slicers to filter by genre or country
+1. Clone or download this repo
+2. Open the `.xlsx` file in Microsoft Excel
+3. Explore the dashboard using slicers to filter by artist, genre, or country
 
 ## 📌 Insights
 *(Optional: add 2-3 bullet points on what the data revealed, 
